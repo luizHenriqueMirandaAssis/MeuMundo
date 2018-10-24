@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Styles.Render("~/bundles/agenda/index-css")
+
+
+<div class="row container-content-page">
+    <div id="menu-checklist">
+        <div class="container-btn-checklist col-md-12">
+
+            <a href="./lista" class="btn-checklist" data-tipo-checklist="segunda">
+                <span class="descricao-btn-checklist">Segunda-feira</span>
+                <span class="icone-btn-checklist"></span>
+            </a>
+
+            <a class="btn-checklist" data-tipo-checklist="terca">
+                <span class="descricao-btn-checklist">Terça-feira</span>
+                <span class="icone-btn-checklist"></span>
+            </a>
+
+            <a class="btn-checklist" data-tipo-checklist="quarta">
+                <span class="descricao-btn-checklist">Quarta-feira</span>
+                <span class="icone-btn-checklist"></span>
+            </a>
+
+            <a class="btn-checklist" data-tipo-checklist="quinta">
+                <span class="descricao-btn-checklist">Quinta-feira</span>
+                <span class="icone-btn-checklist"></span>
+            </a>
+
+            <a class="btn-checklist" data-tipo-checklist="sexta">
+                <span class="descricao-btn-checklist">Sexta-feira</span>
+                <span class="icone-btn-checklist"></span>
+            </a>
+
+            <a class="btn-checklist" data-tipo-checklist="sabado">
+                <span class="descricao-btn-checklist">Sabado</span>
+                <span class="icone-btn-checklist"></span>
+            </a>
+
+            <a class="btn-checklist" data-tipo-checklist="domingo">
+                <span class="descricao-btn-checklist">Domingo</span>
+                <span class="icone-btn-checklist"></span>
+            </a>
+
+        </div>
+    </div>
+    <div class="container-btn-checklist-info col-md-6">
+        <span class="info-checklist"></span>
+    </div>
+</div>
+
+@section scripts {
+
+    @*@Scripts.Render("~/bundles/")*@
+
+}

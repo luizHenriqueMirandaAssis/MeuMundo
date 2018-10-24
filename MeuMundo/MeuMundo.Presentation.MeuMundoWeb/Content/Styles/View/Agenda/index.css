@@ -1,0 +1,35 @@
+﻿.btn-checklist {
+    background-color: #63B8FF;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.2s linear 0s;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 190px;
+    min-height: 140px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+    .btn-checklist:hover {
+        background-color: #000000 !important;
+        text-decoration:none;
+    }
+
+.descricao-btn-checklist {
+    color: white;
+    display: block;
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+.container-btn-checklist {
+    margin-bottom: 20px;
+}
+
+.description-btn-bottom {
+    font-size: 12px;
+    text-decoration: underline;
+}
