@@ -1,1 +1,59 @@
-﻿
+﻿<div id="container-agenda-form" class="container-content-page" data-dia-semana-id="@TempData["DiaSemanaId"]" data-agenda-id="@TempData["AgendaId"]">
+
+    <div class="row">
+        <div id="container-tipo-notificacao" class="form-group col-md-2">
+            <label>Tipo notificação</label>
+            <select id="tipo-notificacao" name="tipo-notificacao" class="form-control">
+                <option value="0">Não informado</option>
+                <option value="1">Mensagem</option>
+                <option value="2">Vibrar</option>
+                <option value="3">Som</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Descrição</label>
+                <textarea class="form-control" id="descricao"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Mensagem</label>
+                <textarea class="form-control" id="mensagem"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Hora</label>
+                <input type="time" class="form-control not-uppercase" id="hora">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Duração</label>
+                <input type="time" class="form-control" id="duracao">
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-3">
+            <button id="salvar-agenda" class="btn btn-primary">Salvar</button>
+            <a id="voltar-lista-agenda" class="btn-voltar">Voltar</a>
+            <a id="excluir-agenda">Excluir</a>
+        </div>
+    </div>
+</div>

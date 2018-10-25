@@ -6,6 +6,10 @@ namespace MeuMundo.Domain.Interfaces.Repository
 {
     public interface IAgendaRepository
     {
-        List<Agenda> GetListByDayWeek(DiaSemanaEnum diaSemana);
+        Agenda GetById(int agendaId);
+        List<Agenda> GetListByDayWeek(int diaSemana);
+        void New(Agenda agenda);
+        Agenda Update(Agenda agenda);
+        void Delete(int agendaId);
     }
 }

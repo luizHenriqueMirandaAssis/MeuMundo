@@ -170,11 +170,14 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Content\Styles\View\Agenda\form.css" />
+    <Content Include="Content\Styles\View\Common.css" />
     <Compile Include="Controllers\AgendaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ResponseAgenda.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -202,6 +205,11 @@
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\View\Agenda\Editar.js" />
+    <Content Include="Scripts\View\Agenda\Form.js" />
+    <Content Include="Scripts\View\Agenda\Lista.js" />
+    <Content Include="Scripts\View\Agenda\Novo.js" />
+    <Content Include="Scripts\View\Common.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -225,7 +233,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

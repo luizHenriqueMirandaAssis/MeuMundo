@@ -4,5 +4,37 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Lista</h2>
+@Styles.Render("~/bundles/agenda/lista-css")
+
+<div id="container-lista" class="container-content-page" data-page="lista-agenda" data-dia-semana-id="@TempData["DiaSemanaId"]">
+    <div class="row">
+        <div class="col-md-12">
+            <a id="novo-notificacao" href="~/Agenda/Novo" class="btn btn-primary">Nova notificação</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table id="table-agenda" class="table-default-project table-hover">
+                <thead>
+                    <tr>
+                        <th id="coluna-visualizar" class="align-center">Visualizar</th>
+                        <th id="coluna-descricao">Descrição</th>
+                        <th id="coluna-hora">Hora</th>
+                        <th id="coluna-tipo">Tipo notificação</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+@section scripts {
+
+    @Scripts.Render("~/bundles/agenda/lista-js")
+
+}
+
 

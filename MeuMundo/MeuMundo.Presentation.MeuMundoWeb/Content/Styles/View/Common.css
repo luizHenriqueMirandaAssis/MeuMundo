@@ -1,0 +1,116 @@
+﻿.table-default-project {
+    font-size: 12px;
+    margin-bottom: 0;
+    outline: none;
+}
+
+    .table-default-project thead {
+        background-color: #63B8FF;
+        color: #fff;
+    }
+
+        .table-default-project thead th {
+            font-weight: normal !important;
+            border-bottom: 0 !important;
+            padding: 5px !important;
+        }
+
+    .table-default-project > tbody > tr > td:not(.coluna-menu-produto) {
+        padding: 5px !important;
+        vertical-align: middle;
+    }
+
+
+
+
+
+    .table-default-project.table-striped > tbody > tr:nth-of-type(odd) {
+        background-color: #f1f1f1 !important;
+    }
+
+.btn-primary {
+    background-color: #63B8FF !important;
+    border-color: #63B8FF !important;
+    color: white;
+    outline: none;
+}
+
+.btn-primary-active {
+    background-color: #CDCDCD !important;
+    color: #333 !important;
+}
+
+.btn-primary:hover {
+    background-color: #63B8FF !important;
+    color: white !important;
+}
+
+.btn-primary:focus, .btn-primary:active {
+    outline-style: none !important;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn-voltar {
+    line-height: 32px;
+    display: inline-block;
+    border-left: 1px solid #a2a0a0;
+    padding-left: 20px;
+    font-size: 12px;
+    text-decoration: underline;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+    .btn-voltar:hover {
+        text-decoration: underline;
+    }
+
+
+.campo-erro {
+    color: #96110D !important;
+}
+
+    .campo-erro input:not(.not-campo-erro),
+    .campo-erro textarea,
+    .campo-erro select,
+    .campo-erro .container-icone-input-calendar {
+        border-color: #96110D !important;
+    }
+
+.msg-campo-erro {
+    font-size: 11px;
+}
+
+.msg-campo-erro-custom {
+    font-size: 11px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding-left: inherit;
+}
+
+
+#alert-application {
+    top: 0;
+    display: none;
+    position: fixed;
+    border-radius: 0;
+    width: 400px;
+    margin-top: 20px;
+    left: 50%;
+    margin-left: -200px;
+    z-index: 10000;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.alert-application-large {
+    width: 500px !important;
+    left: 45.9% !important;
+}

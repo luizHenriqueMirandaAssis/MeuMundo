@@ -1,0 +1,17 @@
+﻿#container-agenda-form {
+    margin-top: 20px;
+}
+
+#descricao,
+#mensagem {
+    min-width: 100%;
+}
+
+#excluir-agenda {
+    display: none;
+}
+
+#container-agenda-form label {
+    font-weight: 500 !important;
+    color: #000000 !important;
+}
